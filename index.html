@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sneakers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Bootstrap icon/icons/bootstrap-icons.css">
+</head>
+<body>
+    <p class="warning" id="warn">warning: shoe added</p>
+    <nav class="#collection">
+
+        <div class="itemOne">
+       <div><h2 id="shoe">sneakers</h2></div>
+       <ul>
+        <li><a href="#collection">collection</a></li>
+        <li><a href="#root">men/womem</li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#contact">contact</a></li>
+       </ul>
+       </div>
+
+       <div class="itemTwo">
+        <h3 onclick="displayCart()">cart <sup id="count">0</sup></h3>
+        <img src="./images/d.jpg" alt="" class="profile">
+       </div>
+
+    </nav>
+
+    <!-- cart -->
+
+    <section class="cart" id="cart">
+        <div class="container"> 
+        <h4>this is our cart</h3>
+        <h3 class="cartAppend" id="cartAppend"></h3>
+        <hr>
+        <div class="bottom">
+        <h3>total:</h3><button onclick="hideCart()" id="hide">hide Cart</button><h3 id="total">price:0.00$</h3>
+        </div>
+    </div>
+    </section>
+
+    <!-- cart -->
+    <section class="home">
+
+        <div class="collection">
+            <div class="bigImage">
+                <img src="./images/one.jpg" alt="" id="big">
+            </div>
+            <div class="smallImage">
+                <img src="./images/jay4.jpg" onclick="changeMeOne()" alt="" id="sOne">
+                <img src="./images/eleven.jpeg" onclick="changeMeTwo()" alt="" id="sTwo">
+                <img src="./images/capt.jpg" onclick="changeMeThree()" alt="" id="sThree">
+                <img src="./images/jay11.jpg" onclick="changeMeFour()" alt="" id="sFour">
+            </div>
+        </div>
+
+        <div class="collectionContent">
+
+            <h5>sneakers company</h5>
+            <h2>fall limited edition</h2>
+            <h3>sneakers</h3>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipsicing elit. Earum, magni! <br>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, incidunt? <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        
+        
+        <div class="prices">
+        <h3 class="a" id="add">$125.00</h3>
+        <span id="dollar">$</span>   
+        <h3 class="b">50%</h3>
+        </div>
+
+        <del class="del">$250</del>
+
+        <div class="add">
+            <button onclick="decrii()">-</button>
+            <p id="addTwo">($125) Shoe Price...</p>
+            <button onclick="incrii()">+</button>
+            <button class="addCart" onclick="displayCart()">View cart</button>
+        </div>
+
+    </div>
+        </div>
+    </section>
+
+    <!-- here we are dealing with men and women page -->
+    
+    <section class="men" id="root"></section>
+    <!-- <section class="men" id="Root"></section> -->
+
+    <!-- here we are dealing with about home page -->
+
+    <section class="about" id="about">
+        <h3>About Us</h3>
+
+        <div class="cardContainer">
+
+            <div class="singleCard">
+                <img src="./images/pers.jpg" alt="">
+                <h3>The Kid Laroi</h3>
+                <h4>Designer</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur<br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, laudantium.
+                </p>
+                <button>contact</button>
+            </div>
+
+            <div class="singleCard">
+                <img src="./images/cat.jpg" alt="">
+                <h3>Jenn Carter</h3>
+                <h4>Designer</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur<br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, laudantium?
+                </p>
+                <button>contact</button>
+            </div>
+
+            <div class="singleCard">
+                <img src="./images/c.jpg" alt="">
+                <h3>IshKevin</h3>
+                <h4>Designer</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur<br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, laudantium?
+                </p>
+                <button>contact</button>
+            </div>
+
+            <div class="singleCard">
+                <img src="./images/flock.jpg" alt="">
+                <h3>Kay Flock</h3>
+                <h4>Designer</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur<br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, laudantium?
+                </p>
+                <button>contact</button>
+            </div>
+
+        </div>
+    </section>
+
+     <section class="contact" id="contact">
+        <h2>contact us</h2>
+
+        <div class="contactMe">
+        <div>
+            <h3>email me</h3>
+            <h4>fiacredeveloper@gmail.com</h4>
+        </div>
+        <div>
+            <h3>contact me</h3>
+            <h4>+250 794 451 9927</h4>
+        </div>
+        </div>
+
+        <h3>let's get in touch through dis</h3>
+        <form action="">
+            <input type="name" id="" placeholder="Name">
+            <input type="email" id placeholder="Email">
+            <input type="text" name="" id="" placeholder="Subject">
+            <input type="text" id="" name="" placeholder="Comment">
+            <center><button>send message</button></center>
+        </form> 
+     </section>
+  
+     <!-- deal with dashboard around here -->
+    
+     <footer>&copy;Copy Right 2024..</footer>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,484 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    border-bottom: 1px solid #333;
+    padding: 15px;
+    background-color:#fff;
+}
+nav .itemOne{
+    display: flex;
+    margin-left: 20px;
+    top: 0px;
+    color: #333;
+    text-transform: capitalize;
+    font-family:cursive;
+}
+.itemOne h2{
+    font-family: cursive;
+}
+.itemOne div{
+    margin-right: 17px;
+    font-size: 17px;
+    margin-bottom:10px;
+}
+nav .itemTwo{
+    display: flex;
+    margin-right: 50px;
+    margin-top:10px;
+}
+nav .itemTwo sup{
+    /* background-color:rgb(255, 68, 1); */
+    color:rgb(255, 68, 1);
+    padding: 7px;
+    height: 10px;
+}
+nav .itemTwo h3{
+    font-size: 23px;
+    text-transform: capitalize;
+}
+nav .itemTwo img{
+    width: 35px;
+    margin-left: 10px;
+    top: 0px;
+    border-radius: 50%;
+}
+nav ul{
+    display: flex;
+    margin-top: 5px;
+}
+nav ul li{
+    list-style-type: none;
+}
+.itemOne ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-right: 15px;
+    color: #333;
+}
+
+.home{
+    display: flex;
+    /* border: 1px solid red; */
+    margin: 37px;
+}
+
+.home .collection{
+    text-align: center;
+}
+.home .collection .bigImage img{
+    width: 520px;
+    height: 400px;
+}
+.home .collection .smallImage img{
+    width: 100px;
+    border: 2px solid rgb(255, 68, 1);
+    border-radius: 5px;
+}
+.home .collectionContent{
+    /* border: 1px solid red; */
+    width: 700px;
+    /* text-align: center;    */
+    margin-left: 77px;
+    margin-top: 22px;
+}
+.home .collectionContent h5{
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: rgb(255, 68, 1);
+    text-transform: capitalize;
+}
+.home .collectionContent h2{
+    font-size: 47px;
+    text-transform: capitalize;
+}
+.home .collectionContent h3{
+    font-size: 37px;
+    margin-bottom: 23px;
+    text-transform: capitalize;
+}
+.home .collectionContent p{
+    font-size: 20px;
+     margin-bottom: 20px;
+}
+.home .collectionContent .prices{
+    display: flex;
+    gap:13px;
+}
+.home .collectionContent .prices .a{
+    font-size: 27px;
+} 
+.home .collectionContent .prices .b{
+    font-size: 20px;
+    margin-top: 3px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 7px;
+    padding-top: 2.5px;
+}
+.home .collectionContent .prices span{
+    font-size:27px;
+    font-weight: bold;
+    display: none;
+    margin-right: 0px;
+}
+.home .collectionContent del{
+    font-size: 17px;
+    color: grey;
+    font-size: 21px;
+}
+.home .collectionContent .add{
+    display: flex;
+    font-size: 23px;
+    margin-top: 30px;
+}
+.home .collectionContent .add button{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid red;
+    font-weight: bold;
+    margin-right: 3px;
+    height: 37px;
+}
+.home .collectionContent .add p{
+    text-align: center;
+    width: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.home .collectionContent .add input{
+    border: none;
+    border: 1px solid red;
+    margin-right: 3px;
+}
+.home .collectionContent .add .addCart{
+    width: 300px;
+    margin-left: 30px;
+    height: 37px;
+    font-size: 17px;
+    text-transform: capitalize;
+    background-color: rgb(255, 68, 1);
+    color: #fff;
+    border-radius: 7px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin-top: 17px;
+    width: 205px;
+}
+
+.box .image-box{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+}
+.box .image-box img{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    align-items: center;
+}
+.box .downBottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.box .downBottom h3{
+    font-size: 17px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.box .downBottom button{
+    width: 100px;
+    height: 23px;
+    text-transform: capitalize;
+    background-color:rgb(255, 68, 1);
+    border: none;
+    padding: 10px;
+    height: 33px;
+    border-radius: 7px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.men{
+    /* border: 3px solid red; */
+    width: 1277px;
+    margin: 37px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+}
+/* delivered css */
+.about{
+    /* border: 2px solid red; */
+    margin: 10px 33px;
+}
+
+.about h3{
+    font-size: 23px;
+    color: #333;
+    margin-bottom: 47px;
+    padding-top: 5px;
+}
+.about .cardContainer{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 67px;
+}
+.about .cardContainer .singleCard img{
+    width: 305px;
+    height: 270px
+}
+.about .cardContainer .singleCard h3{
+    font-size: 23px;
+    color:#7d6d6d;
+    margin-top: 17px;
+}
+.about .cardContainer .singleCard h4{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.about .cardContainer .singleCard p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about .cardContainer .singleCard button{
+    width: 310px;
+    height: 37px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 68, 1);
+    color: #fff;
+}
+.contact{
+    /* border: 2px solid red; */
+    margin: 10px 33px;
+    /* margin-bottom: 100px; */
+}
+.contact .contactMe{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.contact h2{
+    font-size: 27px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.contact h3{
+    font-size: 27px;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+.contact form input{
+    width: 96.7%;
+    padding: 17px;
+    margin-bottom: 15px;
+}
+.contact form button{
+    /* color: red; */
+    width: 200px;
+    height: 47px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 10px;
+}
+footer{
+    background-color: rgb(255, 68, 1);
+    font-size: 17px;
+    border: 1px solid red;
+    margin: 25px;
+    margin-bottom: 0px;
+    color: #fff;
+    text-align: center;
+}
+.cart{
+    background-color:#fff;
+    width: 400px;
+    height: 550px;
+    max-height: 1300px;
+    float: left;
+    margin-left: 70%;   
+    text-align: center;
+     display: none; 
+    border: 3px solid rgb(255, 68, 1);
+    border-radius: 10px;
+    overflow: auto;
+    transition: 1s;
+    position: fixed;
+    padding-left: 20px;
+}
+.cart .container{
+    color: #333;
+    font-size: 17px;
+    padding-top: 20px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+.cart .container h4{
+    background-color: rgb(255, 68, 1);
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px ;
+}
+.cart .bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}   
+.cart .bottom button{
+   text-transform: capitalize;
+   width: 100px;
+   height: 25px;
+   font-size: 17px;
+   margin-left: 40%;
+   background-color: rgb(255, 68, 1);
+   border: none;
+   border-radius: 3px;
+   color: #fff;
+}
+
+/* appended cart css */
+
+.upCart{
+    width: 300px;
+/*    background-color: red;*/
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.upCart i{
+    margin-top: 2px;
+}
+.upCart img{
+width: 50px;
+height: 50px;
+border-radius: 50px;
+}
+.upCart .bottom{
+    display: flex;
+    margin-left: 77px;
+}
+.upCart .bottom h3{
+    padding-right: 10px;
+}
+.dashboard{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 100px;
+}
+.dashboard h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    color:rgb(255, 68, 1);
+    margin-bottom: 17px;
+}
+.dashboard form label{
+    color: #333;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.dashboard form input{
+    width: 370px;
+    height: 33px;
+    margin-bottom: 37px;
+}
+.dashboard form button{
+    width: 127px;
+    height: 37px;
+    font-size: 19px;
+    text-transform: capitalize;
+    background-color:rgb(255, 68, 1);
+    color: #fff;
+    border-radius: 7px;
+    border: none;
+}
+.dashboard form ::placeholder{
+    font-size: 15px;
+    font-family: monospace;
+    color:rgb(255, 68, 1);
+    text-align: center;
+    text-transform: capitalize;
+}
+.dash{
+    color:rgb(255, 68, 1);
+    font-size: 23px;
+    text-align: center;
+}
+.dashtable{
+    margin-top: 50px;
+}
+.dashtable tr{
+    text-transform: capitalize;
+    font-size: 20px;
+    text-align: center;
+    font-family: monospace;
+}
+.dashtable tr td a{
+    text-decoration: none;
+    background-color: rgb(255, 68, 1);
+    padding: 7px;
+    border-radius: 4px;   
+    color: #fff;
+}
+.dashButton{
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size:17px;
+    background-color:rgb(255, 68, 1);
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+}
+.dashButton a{
+    text-decoration: none;
+    color: #fff;
+}
+.warning{
+    display: none;
+    margin-left: 43%;
+    position: fixed;
+    width: 230px;
+    margin-top: 10px;
+    height: 40px;
+    padding: 7px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 7px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(235, 27, 27);
+}

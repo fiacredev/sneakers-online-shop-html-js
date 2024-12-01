@@ -1,2 +1,10 @@
-# guess-number-game
-this is fun game where user who is playing , try to guess number randomly provided by the system this project is built in javascript vanilla.
+## About Project
+
+sneakers online shop is about to sell sneakers shoes online simply is e-commerce website...
+but this project deal with only frontend, it's backend contain in another github repositoty and still in Progress to be finished as full Project...
+
+## Technologies used during development
+
+Html
+Css & 
+Javascript

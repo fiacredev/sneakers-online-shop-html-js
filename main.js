@@ -1,3 +1,4 @@
+ 
 
 const products = [
     {
@@ -62,6 +63,8 @@ const products = [
     },
 
 ];  
+
+// variable to map the items
 
 const collection = [... new Set(products.map((items)=>{
     return items;
